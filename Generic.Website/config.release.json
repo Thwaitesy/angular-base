@@ -1,0 +1,6 @@
+﻿{
+  "configuration.constants": {
+    "version": "#{version}",
+    "apiurl": "#{apiurl}"
+  }
+}

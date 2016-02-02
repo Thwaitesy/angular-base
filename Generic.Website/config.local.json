@@ -1,0 +1,6 @@
+﻿{
+  "configuration.constants": {
+    "version": "1.0.0",
+    "apiUrl": "http://localhost:1234"
+  }
+}

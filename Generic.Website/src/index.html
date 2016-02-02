@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-ng-app="app">
+<head>
+    <base href="/">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Generic</title>
+
+    <link rel="stylesheet" href="/assets/css/app.css">
+</head>
+<body class="layout-fixed hidden-footer" data-ng-class="{ 'aside-collapsed' : app.layout.isCollapsed, 'aside-toggled' : app.asideToggled }">
+
+    <div data-preloader></div>
+    <div data-ui-view="" data-autoscroll="false" class="wrapper"></div>
+
+    <div id="version" class="hidden" style="height: 1px">{{app.version}}</div>
+
+    <script src="assets/js/framework.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
